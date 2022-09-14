@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="start_page_padding">18dp</dimen>
+    <dimen name="welcome_text_size">30sp</dimen>
+    <dimen name="welcome_tag">12dp</dimen>
+    <dimen name="wel_corner_rad">8dp</dimen>
+    <dimen name="welcome_pad_size">19sp</dimen>
+    <dimen name="button_pad">10dp</dimen>
+    <dimen name="edti_text_padding">8dp</dimen>
+    <dimen name="form_content_pad">2dp</dimen>
+    <dimen name="pr_count_size">50sp</dimen>
+</resources>

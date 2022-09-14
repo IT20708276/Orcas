@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Orcas4</string>
+    <string name="welcome_title_text">Give.Share.Cherish</string>
+    <string name="welcome_text">Hello Changemaker!</string>
+    <string name="get_started_text">GET STARTED</string>
+    <string name="enter_event_name">Enter Event Name</string>
+    <string name="enter_event_desc">Enter Event Description</string>
+    <string name="enter_event_location">Enter Event Location</string>
+    <string name="enter_event_count">Enter Intial Participant Count</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="add_eventbtn_text">Add Event</string>
+    <string name="add_event_text">"Add An Event "</string>
+    <string name="add_this_event">Add This Event</string>
+    <string name="Add_an_event">ADD AN EVENT</string>
+    <string name="back_btn_text" />
+    <string name="back_btn">BackButton</string>
+    <string name="dummytext_charity">Beach Clean Up</string>
+    <string name="dummy_text_event_Desc">I guess it is out priority as citizens of the country to protext the marine environment</string>
+    <string name="dummy_text_location">Colombo Mucipality Beach Range</string>
+    <string name="dummy_text_date">31 Aug 2022</string>
+    <string name="paritcipant_text_tag">participants</string>
+    <string name="dummy_text_prcount">34</string>
+    <string name="view_eventbtn">View This Event</string>
+    <string name="dummytext_charity2">Library Renovation</string>
+    <string name="dummy_text_event_Desc1">We are Planing to renovate the Library of Kappetipola Central College</string>
+    <string name="dummy_text_location1">Kappetipola Central College[Behind KCC]</string>
+    <string name="dummy_text_date1">21 Sep 2022</string>
+    <string name="dummy_text_prcount2">12</string>
+    <string name="update_this_event_banner">Update This Event</string>
+    <string name="dummy_text_phone_number">+94718047787</string>
+    <string name="update_this_event">UPDATE THIS EVENT</string>
+    <string name="delete_btn">Delete Button</string>
+    <string name="delete_text">Delete</string>
+</resources>

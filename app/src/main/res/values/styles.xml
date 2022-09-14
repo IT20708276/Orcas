@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="back_button_style">
+        <item name="android:layout_width">59dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:background">@drawable/round_btn</item>
+        <item name="android:contentDescription">@string/back_btn</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

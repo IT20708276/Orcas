@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome_gradient"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/start_page_padding"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/welcome_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_title_text"
+        android:textColor="@color/welcome_title"
+        android:textSize="@dimen/welcome_text_size"
+        android:fontFamily="sans-serif-black"
+        />
+
+    <RelativeLayout
+        android:id="@+id/welcome_rel_layout"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            app:cardCornerRadius="@dimen/wel_corner_rad"
+            app:cardElevation="@dimen/welcome_tag"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:id="@+id/welcome_Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/welcome_text"
+                android:textSize="@dimen/welcome_pad_size" />
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/startButton"
+        android:text="@string/get_started_text"
+        android:layout_width="match_parent"
+        android:textColor="@color/def_btn_color"
+        android:background="@android:color/transparent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
