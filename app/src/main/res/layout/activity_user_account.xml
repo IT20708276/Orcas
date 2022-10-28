@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserAccount">
+    <!--background design-->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="277dp"
+        android:layout_height="219dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/event_insrt_background" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="336dp"
+        android:layout_height="407dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.438"
+        app:srcCompat="@drawable/event_insrt_background2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="209dp"
+        android:layout_height="217dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.291"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.877"
+        app:srcCompat="@drawable/event_insrt_background3" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="163dp"
+        android:layout_height="165dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.786"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/event_insrt_background2" />
+
+    <!-- body design-->
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="330dp"
+        android:layout_height="366dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/user_prfl_image"
+        />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/parithyaga_logo" />
+
+
+    <TextView
+        android:id="@+id/add_your_data_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="@string/wel_user_text"
+        android:textColor="@color/admin_heading_color"
+        android:textSize="@dimen/give_share_text_size"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.29" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/user_profile_card"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/edti_text_padding"
+        app:cardCornerRadius="@dimen/wel_corner_rad"
+        app:cardElevation="@dimen/welcome_tag"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:layout_constraintVertical_bias="0.060000002">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/admin_name"
+            >
+
+            <TextView
+                android:id="@+id/user_Name_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/admin_name"
+                android:text="asith123"
+                android:background="@drawable/round_btn"
+                android:gravity="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/admin_name_donprfl"
+                app:layout_constraintVertical_bias="0.06999999" />
+
+            <TextView
+                android:id="@+id/donation_contacts_det"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/start_page_padding"
+                android:gravity="center"
+                android:text="asitha123@gmail,com"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/admin_name_donprfl"
+                app:layout_constraintVertical_bias="0.06999999" />
+
+            <TextView
+                android:id="@+id/user_phone_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/start_page_padding"
+                android:text="0718877663"
+                android:gravity="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/admin_name_donprfl"
+                app:layout_constraintVertical_bias="0.06999999" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/go_to_mypage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/def_btn_color"
+        android:clickable="true"
+        android:contentDescription="@string/view_all_fragment"
+        app:backgroundTint="@color/def_btn_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_profile_card"
+        app:layout_constraintVertical_bias="0.28"
+        app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

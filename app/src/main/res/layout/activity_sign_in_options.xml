@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_options"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/user_image_view"
+        android:layout_width="179dp"
+        android:layout_height="201dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginRight="@dimen/button_pad"
+        android:clickable="true"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.923"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.115"
+        app:srcCompat="@drawable/user_view" />
+
+    <ImageView
+        android:id="@+id/admin_image_view"
+        android:layout_width="186dp"
+        android:layout_height="201dp"
+        android:clickable="true"
+        android:contentDescription="@string/admin_loginbtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116"
+        app:srcCompat="@drawable/admin_view" />
+
+    <TextView
+
+        android:id="@+id/event_locationview"
+        android:layout_width="177dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="388dp"
+        android:fontFamily="@font/rock_salt"
+        android:gravity="center"
+
+        android:padding="@dimen/button_pad"
+        android:text="@string/admin_view_text"
+        android:textColor="@color/white2"
+        android:textSize="@dimen/welcome_pad_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/admin_image_view"
+        app:layout_constraintVertical_bias="0.0"></TextView>
+
+    <TextView
+
+        android:id="@+id/event_locationview2"
+        android:layout_width="177dp"
+        android:layout_height="100dp"
+        android:fontFamily="@font/rock_salt"
+        android:gravity="center"
+        android:padding="@dimen/button_pad"
+        android:text="@string/user_view_text"
+        android:textColor="@color/white2"
+        android:textSize="@dimen/welcome_pad_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toEndOf="@+id/event_locationview"
+        app:layout_constraintTop_toBottomOf="@+id/user_image_view"
+        app:layout_constraintVertical_bias="0.0"></TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

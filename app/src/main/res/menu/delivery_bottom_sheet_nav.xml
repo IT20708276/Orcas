@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/tobedel"
+        android:id="@+id/pen_del"
+        android:icon="@drawable/ic_baseline_access_time_24"/>
+    <item android:title="@string/pickup"
+        android:id="@+id/pick_del"
+        android:icon="@drawable/ic_baseline_done_24"/>
+
+</menu>

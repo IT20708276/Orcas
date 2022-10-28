@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/donationsbtnuser"
+        android:id="@+id/view_donations"
+        android:icon="@drawable/ic_baseline_elderly_woman_24"/>
+    <item android:title="@string/allcharitybtn"
+        android:id="@+id/all_charity_event"
+        android:icon="@drawable/ic_baseline_event_24"/>
+    <item android:title="@string/userscharitybtn"
+        android:id="@+id/userCharityEvents"
+        android:icon="@drawable/ic_baseline_event_note_24"/>
+</menu>

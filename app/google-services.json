@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1090925504919",
+    "project_id": "parithyaga-626cf",
+    "storage_bucket": "parithyaga-626cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090925504919:android:7b5f5b9d0fb549f42b3cd2",
+        "android_client_info": {
+          "package_name": "com.example.parithyaga"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090925504919-1f6u410u1mrcrrlgcgs20opcrhgumnns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc9QK-Nq5av12SV06GNJxpYWB_O9aPBzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090925504919-1f6u410u1mrcrrlgcgs20opcrhgumnns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

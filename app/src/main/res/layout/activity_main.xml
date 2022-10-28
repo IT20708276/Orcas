@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome_gradient"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/start_page_padding"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="146dp"
+        android:layout_height="150dp"
+        android:background="@drawable/dashboard_ui_background2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:layout_width="146dp"
+        android:layout_height="150dp"
+        android:background="@drawable/dashboard_ui_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.65"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39" />
+
+    <ImageView
+        android:layout_width="146dp"
+        android:layout_height="150dp"
+        android:background="@drawable/dashboard_ui_background3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <RelativeLayout
+            android:id="@+id/welcome_rel_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                app:cardCornerRadius="@dimen/wel_corner_rad"
+                app:cardElevation="@dimen/welcome_tag"
+                app:cardUseCompatPadding="true">
+
+                <TextView
+                    android:id="@+id/welcome_Text"
+                    android:layout_width="260dp"
+                    android:layout_height="52dp"
+                    android:layout_gravity="center"
+
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="@string/welcome_title_text"
+                    android:textSize="@dimen/give_share_text_size" />
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/get_started_text"
+            android:textColor="@color/def_btn_color" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="191dp"
+        android:layout_height="68dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/app_logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="back_button_style">
+        <item name="android:layout_width">59dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:background">@drawable/round_btn</item>
+        <item name="android:contentDescription">@string/go_back_textbtn</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="user_name_tag">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:padding">@dimen/edti_text_padding</item>
+    </style>
+
+    <style name="all_event_card">
+        <item name="android:layout_width">399dp</item>
+        <item name="android:layout_height">285dp</item>
+    </style>
+
+    <style name="Our_Aim_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:textSize">@dimen/welcome_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="our_aim_desc_text">
+        <item name="android:layout_width">377dp</item>
+        <item name="android:layout_height">86dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:textSize">@dimen/welcome_pad_size</item>
+    </style>
+
+    <style name="contact_us_phones" parent="user_name_tag">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">36dp</item>
+        <item name="android:textSize">@dimen/start_page_padding</item>
+    </style>
+
+
+</resources>

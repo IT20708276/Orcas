@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/drawable-v24/event_insrt_background.xml" value="0.2595" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/drawable-v24/event_insrt_background2.xml" value="0.2595" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/drawable-v24/event_insrt_background3.xml" value="0.2595" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/drawable-v24/event_insrt_background5.xml" value="0.2595" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/drawable/dashboard_ui_background.xml" value="0.2595" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/drawable/dashboard_ui_background2.xml" value="0.2595" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/drawable/dashboard_ui_background3.xml" value="0.2595" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/drawable/ic_baseline_calendar_today_24.xml" value="0.2595" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.233" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/layout/activity_admin_login.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/layout/activity_choose_card.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/layout/activity_delivery_maccount.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/layout/activity_donation_details.xml" value="0.21544715447154472" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/layout/activity_event_details.xml" value="0.176" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/layout/activity_insert_card.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/layout/activity_insert_donations.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/layout/activity_insert_event.xml" value="0.176" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/layout/activity_my_donation_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/layout/activity_payment_page2.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/layout/activity_pending_insert.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/layout/activity_pick_up_details.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/layout/activity_register_user.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/layout/activity_sponsor_records.xml" value="0.2" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/layout/activity_sponsorpage.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/layout/activity_to_be_delivered_list.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/layout/activity_update_card.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/layout/activity_update_delivery.xml" value="0.164" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/layout/activity_update_event.xml" value="0.2" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/layout/activity_user_card_list2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/layout/activity_user_login.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/layout/all_donations_row.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/layout/choose_card_row.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/layout/donation_row.xml" value="0.23143115942028986" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/layout/fragment_all__events.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/layout/fragment_date_picker.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/layout/fragment_donation_list.xml" value="0.2" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/layout/fragment_my_events.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER/Desktop/Parithyaga/app/src/main/res/layout/user_cards_row.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/drawable-v24/event_insrt_background.xml" value="0.188" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/drawable-v24/event_insrt_background2.xml" value="0.188" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/drawable-v24/event_insrt_background3.xml" value="0.144" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/drawable-v24/event_insrt_background4.xml" value="0.1825" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/drawable-v24/event_insrt_background5.xml" value="0.1825" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/drawable/dashboard_ui_background.xml" value="0.188" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/drawable/dashboard_ui_background2.xml" value="0.188" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/drawable/ic_baseline_cancel_24.xml" value="0.1" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.123" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/drawable/ic_baseline_my_location_24.xml" value="0.188" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/drawable/ic_baseline_remove_red_eye_24.xml" value="0.123" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/drawable/round_btn.xml" value="0.188" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/drawable/welcome_gradient.xml" value="0.188" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/font/rock_salt.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout-w1240dp/activity_user_card_list.xml" value="0.1" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout-w936dp/activity_user_card_list.xml" value="0.1" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_admin_account.xml" value="0.1796875" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_admin_login.xml" value="0.1796875" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_card.xml" value="0.1" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_choose_card.xml" value="0.1" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_delivery_maccount.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_donation_details.xml" value="0.1" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_donation_maccount.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_donations_recyler_adapter.xml" value="0.11820652173913043" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_event_details.xml" value="0.22" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_insert_card.xml" value="0.22" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_insert_donations.xml" value="0.22" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_insert_event.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_my_donation_list.xml" value="0.1" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_payment_page2.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_pending_insert.xml" value="0.1" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_pick_up_details.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_register_admin.xml" value="0.1" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_register_user.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_sign_in_options.xml" value="0.1796875" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_sponsor_records.xml" value="0.15579710144927536" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_sponsorpage.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_to_be_delivered_list.xml" value="0.15489130434782608" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_update_card.xml" value="0.22" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_update_delivery.xml" value="0.22" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_update_donation.xml" value="0.22" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_update_donation_amount.xml" value="0.1" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_update_event.xml" value="0.22" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_user_account.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_user_card_list2.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_user_logim.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_user_login.xml" value="0.1" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/activity_user_view_page.xml" value="0.14749893116716545" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/all_donations_row.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/all_event_row.xml" value="0.22" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/choose_card_row.xml" value="0.15579710144927536" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/donation_row.xml" value="0.22" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/fragment_all__events.xml" value="0.22" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/fragment_donation_list.xml" value="0.16111111111111112" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/fragment_donation_list2.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/fragment_my_events.xml" value="0.15443840579710144" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/fragment_pending_delievery.xml" value="0.15489130434782608" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/fragment_pending_delivery.xml" value="0.15489130434782608" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/fragment_pick_up_delivery.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/my_events_card_row.xml" value="0.22" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/pending_del_row.xml" value="0.22" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/pickup_del_row.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/layout/user_cards_row.xml" value="0.22" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/menu/bottom_nav_menu.xml" value="0.22" />
+        <entry key="..\:/Users/Janaki/AndroidStudioProjects/Parithyaga/app/src/main/res/menu/delivery_bottom_sheet_nav.xml" value="0.1796875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

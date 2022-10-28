@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/card_donations"
+    app:cardCornerRadius="@dimen/padding_login"
+    android:layout_marginEnd="@dimen/padding_login"
+    app:cardBackgroundColor="@color/def_btn_color">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:elevation="@dimen/padding_login"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="-5dp"
+        >
+
+        <TextView
+            android:id="@+id/did_text"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/don_row_padding"
+            android:text="@string/did_text"
+            android:textSize="@dimen/forgot_password_size" />
+
+        <TextView
+            android:id="@+id/card_number_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/don_row_padding"
+            android:text="@string/org_name_dummy_text"
+            android:textSize="@dimen/forgot_password_size"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/contact_don_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/forgot_password_size"
+            android:gravity="center"
+            android:text="@string/contact_don_dummy"
+            android:textSize="@dimen/forgot_password_size" />
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:padding="@dimen/button_pad"
+            >
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/update_this_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/update_donationbtn"
+                android:background="@drawable/round_btn"
+                android:backgroundTint="@color/form_color"
+                android:padding="@dimen/button_pad"
+                android:layout_marginRight="@dimen/btn_gap_donations"
+                >
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/update_don_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/update_donationAmount"
+                android:background="@drawable/round_btn"
+                android:backgroundTint="@color/form_color"
+                android:padding="@dimen/button_pad"
+                >
+            </androidx.appcompat.widget.AppCompatButton>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

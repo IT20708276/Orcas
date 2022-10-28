@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="DonationManagement.UpdateDonation">
+    <!--background design-->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="277dp"
+        android:layout_height="219dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/event_insrt_background" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="336dp"
+        android:layout_height="407dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.438"
+        app:srcCompat="@drawable/event_insrt_background2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="209dp"
+        android:layout_height="217dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.291"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.877"
+        app:srcCompat="@drawable/event_insrt_background3" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="163dp"
+        android:layout_height="165dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.786"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/event_insrt_background2" />
+
+    <!--body design-->
+    <TextView
+        android:id="@+id/update_event_banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/update_donations_text"
+        android:textColor="@color/startcolor_wel_grad"
+        android:textSize="@dimen/welcome_text_size"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/add_donations_form"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/edti_text_padding"
+        app:cardCornerRadius="@dimen/wel_corner_rad"
+        app:cardElevation="@dimen/welcome_tag"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/update_event_banner">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/card_donations">
+
+            <EditText
+                android:id="@+id/update_tot_amnt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/form_content_pad"
+                android:hint="@string/enter_did_hint"
+                android:minHeight="50dp"
+                android:padding="@dimen/edti_text_padding"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.095" />
+
+            <EditText
+                android:id="@+id/update_don_amnt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/form_content_pad"
+                android:hint="@string/org_name_hint"
+                android:minHeight="50dp"
+                android:padding="@dimen/edti_text_padding"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/update_tot_amnt"
+                app:layout_constraintVertical_bias="0.01999998" />
+
+            <EditText
+                android:id="@+id/update_remain_amnt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/form_content_pad"
+                android:hint="@string/enter_contact_hint"
+                android:inputType="phone"
+                android:minHeight="50dp"
+                android:padding="@dimen/edti_text_padding"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/update_don_amnt"
+                app:layout_constraintVertical_bias="0.00999999" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/update_donation_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/form_content_pad"
+                android:layout_marginTop="38dp"
+                android:hint="@string/enter_don_location"
+                android:minHeight="50dp"
+                android:padding="@dimen/edti_text_padding"
+                app:layout_constraintBottom_toBottomOf="@+id/update_donation_list"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/update_remain_amnt"
+                app:layout_constraintVertical_bias="0.04000002" />
+
+            <EditText
+                android:id="@+id/update_donation_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/form_content_pad"
+                android:hint="@string/enter_don_list"
+                android:minHeight="50dp"
+                android:padding="@dimen/edti_text_padding"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/update_remain_amnt"
+                app:layout_constraintVertical_bias="0.3" />
+
+            <EditText
+                android:id="@+id/update_donation_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/form_content_pad"
+                android:hint="@string/enter_don_amount"
+                android:inputType="number"
+                android:minHeight="50dp"
+                android:padding="@dimen/edti_text_padding"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/update_donation_list"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/update_donationsbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/button_pad"
+                android:background="@drawable/event_insrt_background5"
+                android:padding="@dimen/button_pad"
+                android:text="@string/update_donationbtn"
+                android:textColor="@color/startcolor_wel_grad"
+                app:circularflow_defaultRadius="@dimen/button_pad"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/update_donation_amount" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <ProgressBar
+        android:id="@+id/progressBardonupdate"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/add_donations_form"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/update_event_banner"
+        app:layout_constraintVertical_bias="0.421" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/delete_donation_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/delete_btn_clr"
+        android:clickable="true"
+        android:contentDescription="@string/delete_btn"
+        app:backgroundTint="@color/delete_btn_clr"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toTopOf="@+id/add_donations_form"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.901"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.544"
+        app:srcCompat="@drawable/ic_baseline_cancel_24" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

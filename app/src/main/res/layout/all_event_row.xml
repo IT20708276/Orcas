@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/card_donations"
+    app:cardCornerRadius="@dimen/edti_text_padding"
+    android:background="@color/def_btn_color"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:background="@color/form_color"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="-5dp">
+
+        <TextView
+            android:id="@+id/all_usersname"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="@dimen/button_pad"
+            android:text="@string/dummy_text_username"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/all_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:padding="@dimen/button_pad"
+            android:textStyle="italic"
+            android:text="@string/dummy_text_usercontacts2"
+            android:textSize="20sp" />
+
+
+
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="402dp"
+        android:layout_height="308dp"
+        android:layout_margin="5dp"
+
+        android:backgroundTint="@color/form_color"
+        android:padding="@dimen/button_pad">
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.18"
+            app:layout_constraintStart_toEndOf="@+id/all_event_desctext"
+            app:layout_constraintTop_toTopOf="@+id/all_event_name_text"
+            app:srcCompat="@drawable/all_charity_image" />
+
+
+        <TextView
+
+            android:id="@+id/all_event_name_text"
+            android:layout_width="230dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="@string/event_name_dummy_text"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.093"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/all_event_desctext"
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:maxLines="5"
+            android:padding="@dimen/button_pad"
+            android:text="Event Description"
+            app:layout_constraintBottom_toTopOf="@+id/all_location_sign"
+            app:layout_constraintEnd_toStartOf="@+id/all_participant_tag"
+            app:layout_constraintHorizontal_bias="0.02"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/all_event_name_text">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/all_prcount_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:background="@drawable/round_btn"
+            android:gravity="center"
+            android:padding="@dimen/button_pad"
+            android:text="@string/dummy_text_prcount"
+            android:textSize="@dimen/pr_count_size"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/all_event_desctext"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.67"
+            app:layout_constraintStart_toEndOf="@+id/all_event_name_text"
+            app:layout_constraintTop_toBottomOf="@+id/all_event_name_text">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/all_location_sign"
+            android:layout_width="41dp"
+            android:layout_height="51dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/all_event_locationview"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/all_event_name_text"
+            app:layout_constraintVertical_bias="0.94"
+            app:srcCompat="@drawable/ic_baseline_location_on_24" />
+
+        <TextView
+            android:id="@+id/all_event_locationview"
+            android:layout_width="wrap_content"
+            android:layout_height="51dp"
+            android:layout_marginBottom="8dp"
+            android:padding="@dimen/button_pad"
+            android:text="Event location"
+            android:textColor="@color/dashboardUI1"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.35"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/all_event_desctext"
+            app:layout_constraintVertical_bias="0.969">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/all_participant_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:textColor="@color/white"
+            android:background="@drawable/round_btn"
+            android:text="@string/paritcipant_text_tag"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/all_prcount_view"
+            app:layout_constraintStart_toStartOf="@+id/all_prcount_view"
+            app:layout_constraintTop_toBottomOf="@+id/all_prcount_view"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/all_event_timestamp_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Date Added"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.962"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/all_event_locationview"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.parithyaga">
+
+    <application
+        android:name="util.AdminApi"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Parithyaga"
+        tools:targetApi="31">
+        <activity
+            android:name="EventManagement.SponsorRecords"
+            android:exported="false" />
+        <activity
+            android:name="EventManagement.Sponsorpage"
+            android:exported="false" />
+        <activity
+            android:name="EventManagement.ChooseCard"
+            android:exported="false" />
+        <activity
+            android:name="PaymentManagement.UpdateCard"
+            android:exported="false" />
+        <activity
+            android:name="DeliveryManagement.PickUpDetails"
+            android:exported="false" />
+        <activity
+            android:name="DeliveryManagement.UpdateDelivery"
+            android:exported="false" />
+        <activity
+            android:name="DeliveryManagement.PendingInsert"
+            android:exported="false" />
+        <activity
+            android:name="DeliveryManagement.ToBeDeliveredList"
+            android:exported="false" />
+        <activity
+            android:name="EventManagement.EventDetails"
+            android:exported="false" />
+        <activity
+            android:name="EventManagement.UpdateEvent"
+            android:exported="false" />
+        <activity
+            android:name="EventManagement.InsertEvent"
+            android:exported="false" />
+        <activity
+            android:name="PaymentManagement.PaymentPage"
+            android:exported="false"
+            android:label="@string/title_activity_payment_page"
+            android:theme="@style/Theme.Parithyaga.NoActionBar" />
+        <activity
+            android:name="PaymentManagement.InsertCard"
+            android:exported="false" />
+        <activity
+            android:name="PaymentManagement.UserCardList"
+            android:exported="false" />
+        <activity
+            android:name="DonationManagement.DonationDetails"
+            android:exported="false" />
+        <activity
+            android:name=".UserViewPage"
+            android:exported="false" />
+        <activity
+            android:name=".UserAccount"
+            android:exported="false" />
+        <activity
+            android:name="DonationManagement.UpdateDonationAmount"
+            android:exported="false" />
+        <activity
+            android:name="DonationManagement.UpdateDonation"
+            android:exported="false" />
+        <activity
+            android:name="DonationManagement.InsertDonations"
+            android:exported="false" />
+        <activity
+            android:name="DonationManagement.MyDonationList"
+            android:exported="false" />
+        <activity
+            android:name=".DeliveryMAccount"
+            android:exported="false" />
+        <activity
+            android:name=".DonationMAccount"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterUser"
+            android:exported="false" />
+        <activity
+            android:name=".UserLogin"
+            android:exported="false" />
+        <activity
+            android:name=".AdminLogin"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
